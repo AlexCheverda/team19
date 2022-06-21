@@ -5,12 +5,12 @@
   background-color: #fff;
   color: #2f2f37;
   max-width: 960px;
-  padding: 16px;
+  padding: 20px;
 }
 
 .example code {
   font-family: monospace;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   background-color: #ff6b0a;
   color: #fff;
@@ -25,4 +25,21 @@
   background-image: url('../images/logo.png');
   background-size: cover;
   background-position: center;
+}
+
+.seciton {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: rgba($color: #8dae98, $alpha: 0.5);
+}
+.seciton__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__item {
+    width: 350px;
+    height: 350px;
+    align-items: center
+    justify-content: center;
+  }
 }
